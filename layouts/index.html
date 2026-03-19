@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+<body>
+  <!-- 背景动画（保留动态光斑，和樱花背景适配） -->
+   <div class="bg-animation" id="bgAnimation"></div>
+
+    <div class="container mx-auto px-4 py-12 max-w-md">
+    <!-- 核心：个人资料（头像/昵称/社交图标） -->
+    {{ partial "profile.html" . }}
+
+    <!-- 核心：链接卡片 -->
+    {{ partial "link-card.html" . }}
+
+    <!-- 保留：About 介绍模块 -->
+    {{ partial "instructions.html" . }}
+
+    <!-- 页脚版权信息 -->
+    <footer class="text-center mt-8">
+      <a
+        href="https://icp.gov.moe/?keyword=20250326"
+        target="_blank"
+        style="font-size:19px;color:#f4b1cf;font-weight:bold;"
+      >
+        @wu138di 萌ICP备20250326号
+      </a>
+    </footer>
+  </div>
+
+  <!-- 背景动画脚本 -->
+  <script src="js/script.js"></script>
+</body>
+</html>

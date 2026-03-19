@@ -1,0 +1,47 @@
+#---wu138di---
+baseURL: "https://wu138di.me/"
+title: "WU138DI小站"
+languageCode: "zh-cn"
+defaultContentLanguage: "zh-cn"
+disableKinds: ["taxonomy", "term", "RSS", "page", "section"]
+
+params:
+  header:
+    title: "wu138di小站"
+    subtitle: "萌え萌え"
+    avatar: "images/icons/kinisaki.jpg"
+
+  appearance:
+    theme: "auto"
+
+  background:
+    type: "image"          
+    value: "images/mzk.jpg" 
+    opacity: 0.8           
+    blur: "8px"            
+
+
+  links:
+    - title: "wu138di blog"
+      href: "https://blog.wu138di.me"
+      icon: "/images/icons/kinisaki.jpg"
+      icon_type: "image"
+      description: "My blog，✨いつも元気だったよ！"
+
+    - title: "wu138di课表查询系统（dev）"
+      href: ""
+      icon: "/images/icons/kec.png"
+      description: "开发中"
+
+    - title: "wu138di分享资源站（dev）"
+      href: ""
+      icon: "/images/icons/gal.png"
+      description: "开发中"
+
+  socials:
+    - url: "https://t.me/wu138dihack"
+      icon: "fab fa-telegram"
+    - url: "https://discord.gg/wu138di"
+      icon: "fab fa-discord"
+    - url: "https://github.com/wu138di"
+      icon: "fab fa-github"

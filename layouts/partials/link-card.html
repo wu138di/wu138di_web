@@ -1,0 +1,18 @@
+<div class="space-y-4 mb-8">
+  {{ range .Params.links }}
+    <a href="{{ .href }}" class="block link-card p-4 flex items-center">
+      <div class="w-10 h-10 flex items-center justify-center mr-4">
+        <!-- 新增判断：如果 icon 是图片路径，用 img 标签；否则用 Font Awesome -->
+        {{ if or (hasPrefix .icon "/images/") (hasPrefix .icon "images/") }}
+          <img src="{{ .icon | absURL }}" alt="{{ .title }} icon" class="w-8 h-8 object-contain">
+        {{ else }}
+          <i class="{{ .icon }} icon text-xl"></i>
+        {{ end }}
+      </div>
+      <div>
+        <h3 class="font-medium">{{ .title }}</h3>
+        <p class="text-sm opacity-70">{{ .description }}</p>
+      </div>
+    </a>
+  {{ end }}
+</div>
