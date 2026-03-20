@@ -19,10 +19,10 @@ links:
     icon_type: "image"
     description: "My blog，✨いつも元気だったよ！"
     
-  - title: "wu138di课表查询系统（dev）"
-    href: ""
+  - title: "wu138di课表查询系统（试运营）"
+    href: "https://kebiao.wu138di.me"
     icon: "/images/icons/kec.png"
-    description: "开发中"
+    description: "课表查询，助力每个大学生不在迟到！"
 
   - title: "wu138di分享资源站（dev）"
     href: ""
