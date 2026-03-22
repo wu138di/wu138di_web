@@ -3,7 +3,7 @@ title: "WU138DI导航站"
 # Profile settings
 profileImage: "images/icons/kinisaki.jpg"
 name: "wu138di"
-description: "Developer | Python | C/C++"
+description: "Developer | Python | C/C++| Full Stack Engineer"
 socials:
   - url: "https://t.me/wu138dihack"
     icon: "fab fa-telegram"
