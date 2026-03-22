@@ -24,7 +24,7 @@ links:
     icon: "/images/icons/kec.png"
     description: "课表查询，助力每个大学生不在迟到！"
 
-  - title: "wu138di分享资源站（dev）"
+  - title: "wu138di分享资源站（beta）"
     href: "https://ziyuan.wu138di.dev"
     icon: "/images/icons/gal.png"
     description: "wu138di资源站，不定期分享资源！（Beta v1.0）"
