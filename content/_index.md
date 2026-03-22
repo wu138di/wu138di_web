@@ -25,9 +25,9 @@ links:
     description: "课表查询，助力每个大学生不在迟到！"
 
   - title: "wu138di分享资源站（dev）"
-    href: ""
+    href: "https://ziyuan.wu138di.dev"
     icon: "/images/icons/gal.png"
-    description: "开发中"
+    description: "wu138di资源站，不定期分享资源！（Beta v1.0）"
 ---
 
 hideInstructions: true
